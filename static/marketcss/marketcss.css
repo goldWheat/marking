@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 976826 */
+  src: url('//at.alicdn.com/t/font_976826_c54aocks1kg.eot');
+  src: url('//at.alicdn.com/t/font_976826_c54aocks1kg.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_976826_c54aocks1kg.woff') format('woff'),
+  url('//at.alicdn.com/t/font_976826_c54aocks1kg.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_976826_c54aocks1kg.svg#iconfont') format('svg');
+}
+html,body{
+  background:#f0f3f4;
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.contentBox{
+  margin-left: 210px;
+  margin-top: 80px;
+  margin-bottom:30px;
+}
+
+/*活动列表名单列表*/
+  .universalHead{
+    background: #ccc;
+  }
+  .universalHead h4{
+    margin-top: 15px;
+    margin-bottom: 15px
+  }
+  .universalSearchBox{
+    padding-top: 7px
+  }
+  .universalTableList{
+    padding-top: 15px
+  }
+  .universalTableList td,.universalTableList th{
+    text-align: center;
+    vertical-align: middle !important;
+  }
+  .dataNum{
+    margin-top: 30px
+  }
+/*基础设置和短信管理公公头部*/
+  .tabNav{
+    height: 40px;
+    border-bottom: 2px solid #ccc
+  }
+  .tabNav ul{
+    padding-left: 0;
+
+  }
+  .tabNav ul li{
+    float: left;
+    list-style: none;
+    margin-right: 5px;
+    
+  } 
+  .tabNav ul li a{
+    color: #666;
+    padding: 10px 10px;
+    background: #ccc;
+    display: block;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;   
+  }
+  .tabNav ul li a:hover,.tabNav ul li a.router-link-exact-active{
+    text-decoration: none;
+    color: #fff;
+    background: #131e26;
+  }
+.mt-15{
+  margin-top: 15px;
+}
+.mr-15{
+  margin-right: 15px;
+}
+
+.mb-15{
+  margin-bottom: 15px;
+}
+.pl-15{
+  padding-left: 15px;
+}
+.pr-15{
+  padding-right: 15px;
+}
